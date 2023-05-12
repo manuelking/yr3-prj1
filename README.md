@@ -1,6 +1,7 @@
 # yr3-prj1
 
 To view this project, visit: https://selene.hud.ac.uk/u1959809/yr3prj1/index.html
+
 *Please note that the application may not function as desired due to issues with the API and endpoints being used.*
 
 ## About this project
