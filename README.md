@@ -17,4 +17,4 @@ The purpose of the application developed is to present he NFL in a format for in
 ### How to use: 
 Navigate the application.
 
-*Please note that the application may not function as desired due to issues with the API being used.
+*Please note that the application may not function as desired due to issues with the API being used.*
