@@ -6,7 +6,8 @@ To view this project, visit: https://selene.hud.ac.uk/u1959809/yr3prj1/index.htm
 
 ## About this project
 
-### Assignment: Advanced Front-End Web Development
+### Assignment: 
+Advanced Front-End Web Development
 
 ### Programming languages and tools: 
 HTML 5, CSS, JavaScript.
