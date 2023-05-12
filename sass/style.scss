@@ -1,0 +1,32 @@
+@import 'profile';
+@import 'hero';
+@import 'about';
+
+#content {
+    font-size: x-large;
+  }
+  mark {
+    background-image: linear-gradient(rgba(252, 83, 86, 0.6), rgba(252, 83, 86, 0.6));
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-color: transparent;
+    padding: 0;
+    color: currentColor;
+  }
+  .theme-color {
+    color: #fc5356;
+  }
+  .dark-color {
+    color: #20247b;
+  }
+  
+  .gutters-sm {
+    margin-right: -8px;
+    margin-left: -8px;
+  }
+  
+  .gutters-sm>.col, .gutters-sm>[class*=col-] {
+    padding-right: 8px;
+    padding-left: 8px;
+  }

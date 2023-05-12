@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Passing Data Using a Query String</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></head>
+	<link rel="stylesheet" href="/passing-data-query-string-main/sass/style.scss">
+</head>
+<body>
+
+
+	<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+		<div class="container-fluid">
+			<a href="/passing-data-query-string-main/index.html">
+		<img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/National_Football_League_logo.svg/800px-National_Football_League_logo.svg.png" width="50" height="auto" class="d-inline-block align-top" alt=""></a>
+    		NFL Fans
+  		
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		  <div class="navbar-nav">
+			<a class="nav-item nav-link active" href="/passing-data-query-string-main/index.html">Home <span class="sr-only">(current)</span></a>
+			<a class="nav-item nav-link" href="/passing-data-query-string-main/team.html">Teams</a>
+		  </div>
+		</div>
+		</div>
+	  </nav>
+
+
+	<div class="container mt-5">
+		<div class="jumbotron bg-light shadow p-5">
+		  <h1 class="mb-5" id="title"></h1>
+		  <div class="row">
+			<div class="col-sm-3">
+			  <h6 class="mb-0">State</h6>
+			</div>
+			<div id="state" class="col-sm-9 text-secondary"></div>
+		  </div>
+		  <hr>
+		  <div class="row">
+			<div class="col-sm-3">
+			  <h6 class="mb-0">City</h6>
+			</div>
+			<div id="city" class="col-sm-9 text-secondary"></div>
+		  </div>
+		  <hr>
+		  <div class="row">
+			<div class="col-sm-3">
+			  <h6 class="mb-0">Zip</h6></div>
+			<div id="zip" class="col-sm-9 text-secondary"></div>
+		  </div>
+		  <hr>
+		  <div class="row">
+			<div class="col-sm-3">
+			  <h6 class="mb-0">Capacity</h6></div>
+			<div id="capacity" class="col-sm-9 text-secondary"></div>
+		  </div>
+		</div>
+		
+		<div class="row">
+			<div class="col-lg-12 col-md-12 mb-4 mb-lg-0">
+			  <img id="image1" class="w-auto h-100 shadow-1-strong rounded mb-4 shadow">
+			</div>
+			<div class="col-lg-12 mt-4 mb-4 mb-lg-0">
+			  <img id="image2" class="w-auto h-100 shadow-1-strong rounded mb-4 shadow">
+			</div>
+			<div class="col-lg-4 mb-4 mb-lg-0">
+			</div>
+		</div>
+
+<script src="js/venue.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

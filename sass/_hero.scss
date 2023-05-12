@@ -1,0 +1,49 @@
+$primary-color: white;
+
+.lazy-background {
+  background-image: url("https://images.unsplash.com/photo-1601701089287-2a4fa78d091b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1199&q=80")no-repeat center center fixed;
+  -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+  }
+  .lazy-background.visible {
+    background-image: url("https://images.unsplash.com/photo-1601701089287-2a4fa78d091b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1199&q=80")no-repeat center center fixed;
+  }
+  .hero-banner h1 {
+    font-size: 48px;
+    color: $primary-color;
+  }
+  .hero-banner p {
+    color: $primary-color;
+  }
+  .hero-banner .btn {
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+    color: $primary-color;
+    font-weight: bold;
+  }
+  .hero-banner .btn-primary {
+    color: #2f2f41;
+    background-color: rgba(1, 164, 121, 0.1);
+    border-color: #01a479;
+  }
+  .hero-banner .btn:before {
+    content: "";
+    background: #ed5561;
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+  }
+  .hero-banner .btn:hover:before {
+    width: 100%;
+  }
